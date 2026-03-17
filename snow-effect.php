@@ -58,8 +58,8 @@ function errplugin_snow_effect_donate_link_html() {
 	printf(
 		'<a href="%1$s" target="_blank" rel="noopener noreferrer" class="err-donate-link" aria-label="%2$s"><span>%3$s 🚀</span></a>',
 		esc_url( $donate_url ),
-		esc_attr__( 'Donate to support this plugin', 'snow-effect' ),
-		esc_html__( 'Donate', 'snow-effect' )
+		esc_attr__( 'Donate to support this plugin', 'snow-effect' ), //
+		esc_html__( 'Donate', 'snow-effect' ) //
 	);
 }
 
